@@ -1,0 +1,23 @@
+.about_us {
+  margin-top: 3rem;
+}
+.about_us-conatiner {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 5rem;
+}
+.about_us-right > p {
+  margin: 1.6rem 0 2.5rem;
+}
+@media screen and (max-width: 600px) {
+  .about_us-conatiner {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .about_us-conatiner {
+    gap: 2rem;
+    padding: 1rem;
+  }
+}
